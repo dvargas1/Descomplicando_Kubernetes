@@ -21,6 +21,8 @@ spec:
       containers:
       - image: nginx:1.19
         name: nginx
+        ports:
+        - containerPort: 8080
         resources:
           limits:
             cpu: 0.5
