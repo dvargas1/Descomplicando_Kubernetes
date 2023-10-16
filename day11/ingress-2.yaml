@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: giropops-senhas-static
 spec:
+  ingressClassName: nginx
   rules:
   - http:
       paths:
